@@ -3,6 +3,9 @@
 #include <cstdlib>
 #include <string>
 #include <cassert>
+#include <array>
+#include <memory>
+#include <stdexcept>
 
 std::string run_command(const std::string& cmd) {
     std::array<char, 128> buffer;
