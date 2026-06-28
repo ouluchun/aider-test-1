@@ -1,7 +1,9 @@
 #include <cstdio>
 #include <cstdlib>
+#include <array>
 #include <memory>
 #include <string>
+#include <stdexcept>
 
 std::string exec(const char* cmd) {
     std::array<char, 128> buffer;
